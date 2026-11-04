@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'MainFont';
+  src: 
+	url('./font/ZenMaruGothic-Medium.ttf') format('truetype');
+}
+
+#key-visual{
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#key-visual .key-visual-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.borderline-dot {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    color: rgba(173, 230, 239, 1);
+    font-size: 40px;
+    object-fit: contain;
+}
+
+.sub-borderline-dot {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    color: rgb(239, 172, 185);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    font-family: MainFont;
+}
+
+main p{
+	color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
+.title{
+    color: #86cfef;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage-title{
+    margin-top: 100px;
+    color: #86cfef;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold {
+    font-weight: bold;
+	color: #86cfef;
+}
+
+#modal-txt-wrap h1{
+    font-size: 40px;
+	color: rgb(30, 30, 30);
+    font-family: MainFont;
+}
+
+#modal-txt-wrap p{
+	color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .borderline-dot {
+        margin: 20px 0;
+    }
+
+    main p{
+        font-size: 16px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .subpage-title{
+        font-size: 30px;
+    }
+
+    .sub-borderline-dot {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+}

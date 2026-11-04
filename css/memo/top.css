@@ -1,0 +1,26 @@
+.program-memo-title {
+    display: flex; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.reload-day {
+	color: rgb(180, 180, 180);
+    text-align: right
+
+}
+
+.top-kasumiso-link {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.top-title {
+	color: rgb(30, 30, 30);
+    margin: 21px 170px;
+    font-weight: bold;
+}
